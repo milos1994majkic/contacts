@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "config-overrides-path": "node_modules/react-app-rewired/config-overrides.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -13,6 +14,7 @@
     "lint": "^0.7.0",
     "prettier": "^2.7.1",
     "react": "^17.0.2",
+    "react-app-rewired": "^2.2.1",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
     "typescript": "^4.5.5",
@@ -86,6 +88,7 @@
     "husky": "^8.0.1",
     "prettier-eslint": "^15.0.1",
     "prettier-eslint-cli": "^6.0.1",
+    "react-app-rewire-alias": "^1.1.7",
     "webpack": "^5.68.0"
   }
 }
