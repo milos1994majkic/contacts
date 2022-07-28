@@ -3,7 +3,7 @@ import React from 'react'
 interface Props {
   icon: JSX.Element
   title: string
-  isActive: { isActive: boolean }
+  isActive?: { isActive: boolean }
   badge?: JSX.Element
 }
 
@@ -11,7 +11,7 @@ export default function NavigationItem({ icon, title, isActive, badge }: Props) 
   return (
     <div
       className={`flex justify-between mb-4 ${
-        isActive.isActive ? 'bg-gray-100' : null
+        isActive?.isActive ? 'bg-gray-100' : null
       } rounded-lg px-2.5 py-2.5`}
     >
       <div className="flex h-6 font-medium text-gray-600">
