@@ -8,9 +8,14 @@ import StarIcon from '../../icons/StarIcon'
 import UserIcon from '../../icons/UserIcon'
 import NavigationItem from '../../molecules/NavigationItem'
 
-export default function SideMenu() {
+interface Props {
+  setShowPopup: Function
+  setPopupTitle: Function
+}
+
+export default function SideMenu({ setShowPopup, setPopupTitle }: Props) {
   return (
-    <div className="w-1/5 pt-5 pl-4">
+    <div className="w-1/5 pt-5 pl-4 pr-4 border-r fixed h-screen">
       <NavLink to="/">
         <div className="flex mb-6">
           <HeroIcon />
@@ -38,7 +43,7 @@ export default function SideMenu() {
         Labels
         <div className="flex-grow h-px bg-gray-400 mx-4"></div>
       </div>
-      <NavLink to="/work">
+      <NavLink to="label/work">
         {(isActive) => (
           <NavigationItem
             icon={<Bookmark />}
@@ -48,7 +53,10 @@ export default function SideMenu() {
           />
         )}
       </NavLink>
-      <NavLink to="family" className={({ isActive }) => (isActive ? 'bg-gray-400' : undefined)}>
+      <NavLink
+        to="label/family"
+        className={({ isActive }) => (isActive ? 'bg-gray-400' : undefined)}
+      >
         {(isActive) => (
           <NavigationItem
             icon={<Bookmark />}
@@ -58,7 +66,7 @@ export default function SideMenu() {
           />
         )}
       </NavLink>
-      <NavLink to="friends">
+      <NavLink to="label/friends">
         {(isActive) => (
           <NavigationItem
             icon={<Bookmark />}
@@ -68,11 +76,14 @@ export default function SideMenu() {
           />
         )}
       </NavLink>
-      <NavLink to="newLabel">
-        {(isActive) => (
-          <NavigationItem icon={<PlusIcon />} title="Create Label" isActive={isActive} />
-        )}
-      </NavLink>
+      <button
+        onClick={() => {
+          setShowPopup(true)
+          setPopupTitle('Create label')
+        }}
+      >
+        <NavigationItem icon={<PlusIcon />} title="Create Label" />
+      </button>
     </div>
   )
 }
