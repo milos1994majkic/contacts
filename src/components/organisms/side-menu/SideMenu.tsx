@@ -15,7 +15,7 @@ interface Props {
 
 export default function SideMenu({ setShowPopup, setPopupTitle }: Props) {
   return (
-    <div className="w-1/5 pt-5 pl-4 pr-4 border-r fixed h-screen">
+    <div className="w-80 pt-5 pl-4 pr-4 border-r fixed h-screen">
       <NavLink to="/">
         <div className="flex mb-6">
           <HeroIcon />
