@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Route, Routes, BrowserRouter as Router, Outlet } from 'react-router-dom'
 import Popup from './components/organisms/popup/Popup'
 import SideMenu from './components/organisms/side-menu/SideMenu'
+import ContactsPage from './pages/ContactsPage'
 
 function App() {
   const [showPopup, setShowPopup] = useState(false)
@@ -17,10 +18,13 @@ function App() {
               element={
                 <>
                   <SideMenu setShowPopup={setShowPopup} setPopupTitle={setPopupTitle} />
-                  <Outlet />
+                  <div className="ml-80 px-8 pb-7 w-full">
+                    <Outlet />
+                  </div>
                 </>
               }
             >
+              <Route path="" element={<ContactsPage />} />
               <Route path="create" />
               <Route path="favorites" />
               <Route path="label/work" />
