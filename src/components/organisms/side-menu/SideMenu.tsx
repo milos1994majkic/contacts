@@ -1,4 +1,6 @@
+import { useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
+import { useContacts } from '../../../hooks/useContact'
 import CreateButton from '../../atoms/CreateButton'
 import Badge from '../../icons/Badge'
 import Bookmark from '../../icons/BookmarkIcon'
@@ -14,6 +16,12 @@ interface Props {
 }
 
 export default function SideMenu({ setShowPopup, setPopupTitle }: Props) {
+  const { contacts, reqContacts } = useContacts()
+
+  useEffect(() => {
+    reqContacts()
+  }, [])
+
   return (
     <div className="w-80 pt-5 pl-4 pr-4 border-r fixed h-screen">
       <NavLink to="/">
@@ -30,7 +38,12 @@ export default function SideMenu({ setShowPopup, setPopupTitle }: Props) {
       <div className="mb-4">
         <NavLink to="/">
           {(isActive) => (
-            <NavigationItem icon={<UserIcon />} title="Contacts" isActive={isActive} />
+            <NavigationItem
+              icon={<UserIcon />}
+              title="Contacts"
+              isActive={isActive}
+              badge={<Badge value={contacts.length} isActive={isActive} />}
+            />
           )}
         </NavLink>
         <NavLink to="favorites">
