@@ -1,16 +1,20 @@
-import { useEffect } from 'react'
 import { ContactInterface } from '../../data/ContactsInterface'
 import Heading from '../components/atoms/Heading'
 import ContactItem from '../components/molecules/ContactItem'
-import { useContacts } from '../hooks/useContact'
 
-export default function ContactsPage() {
-  const { contacts, reqContacts } = useContacts()
+interface Props {
+  contacts: ContactInterface[]
+  setShowPopup: Function
+  setPopupTitle: Function
+  setContactId: Function
+}
 
-  useEffect(() => {
-    reqContacts()
-  }, [])
-
+export default function ContactsPage({
+  contacts,
+  setShowPopup,
+  setPopupTitle,
+  setContactId,
+}: Props) {
   return (
     <div className="flex flex-col w-full">
       <Heading title="Contacts" />
@@ -23,12 +27,16 @@ export default function ContactsPage() {
       {contacts.map((item: ContactInterface, index: number) => (
         <ContactItem
           key={index}
+          id={item.id}
           profilePhoto={item.profilePhoto}
           firstName={item.firstName}
           lastName={item.lastName}
           email={item.email}
           phoneNumber={item.phoneNumber}
           favourite={item.favourite}
+          setShowPopup={setShowPopup}
+          setPopupTitle={setPopupTitle}
+          setContactId={setContactId}
         />
       ))}
     </div>

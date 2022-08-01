@@ -13,14 +13,15 @@ import NavigationItem from '../../molecules/NavigationItem'
 interface Props {
   setShowPopup: Function
   setPopupTitle: Function
+  submitted: boolean
 }
 
-export default function SideMenu({ setShowPopup, setPopupTitle }: Props) {
+export default function SideMenu({ setShowPopup, setPopupTitle, submitted }: Props) {
   const { contacts, reqContacts } = useContacts()
 
   useEffect(() => {
     reqContacts()
-  }, [])
+  }, [submitted])
 
   return (
     <div className="w-80 pt-5 pl-4 pr-4 border-r fixed h-screen">
