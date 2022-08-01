@@ -49,7 +49,17 @@ export default function SideMenu({ setShowPopup, setPopupTitle, submitted }: Pro
         </NavLink>
         <NavLink to="favorites">
           {(isActive) => (
-            <NavigationItem icon={<StarIcon />} title="Favorites" isActive={isActive} />
+            <NavigationItem
+              icon={<StarIcon />}
+              title="Favorites"
+              isActive={isActive}
+              badge={
+                <Badge
+                  value={contacts.filter((item) => item.favourite).length}
+                  isActive={isActive}
+                />
+              }
+            />
           )}
         </NavLink>
       </div>

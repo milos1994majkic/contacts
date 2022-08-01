@@ -11,3 +11,8 @@ export interface ContactInterface {
     title : string
   }
 }
+
+export interface LabelInterface {
+  id: string
+  title: string
+}

@@ -6,6 +6,7 @@ import SideMenu from './components/organisms/side-menu/SideMenu'
 import { useContacts } from './hooks/useContact'
 import ContactsPage from './pages/ContactsPage'
 import CreatePage from './pages/CreatePage'
+import EditPage from './pages/EditPage'
 
 function App() {
   const [showPopup, setShowPopup] = useState(false)
@@ -48,11 +49,24 @@ function App() {
                     setShowPopup={setShowPopup}
                     setPopupTitle={setPopupTitle}
                     setContactId={setContactId}
+                    setSubmitted={setSubmitted}
                   />
                 }
               />
               <Route path="create" element={<CreatePage setSubmitted={setSubmitted} />} />
-              <Route path="favorites" />
+              <Route
+                path="favorites"
+                element={
+                  <ContactsPage
+                    contacts={contacts.filter((item) => item.favourite)}
+                    setShowPopup={setShowPopup}
+                    setPopupTitle={setPopupTitle}
+                    setContactId={setContactId}
+                    setSubmitted={setSubmitted}
+                  />
+                }
+              />
+              <Route path="edit" element={<EditPage setSubmitted={setSubmitted} />} />
               <Route path="label/work" />
               <Route path="label/family" />
               <Route path="label/friends" />
