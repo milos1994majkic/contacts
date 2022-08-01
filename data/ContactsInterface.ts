@@ -5,7 +5,7 @@ export interface ContactInterface {
   profilePhoto: string
   email: string
   phoneNumber : string
-  favourite: false
+  favourite: boolean
   label: {
     id : string
     title : string

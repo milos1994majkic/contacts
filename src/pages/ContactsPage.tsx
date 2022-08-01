@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { ContactInterface } from '../../data/ContactsInterface'
+import Heading from '../components/atoms/Heading'
 import ContactItem from '../components/molecules/ContactItem'
 import { useContacts } from '../hooks/useContact'
 
@@ -12,7 +13,7 @@ export default function ContactsPage() {
 
   return (
     <div className="flex flex-col w-full">
-      <h1 className="font-semibold text-2xl text-gray-900 capitalize mt-6	mb-4">contacts</h1>
+      <Heading title="Contacts" />
       <div className="flex flex-row w-full justify-between h-10 text-xs font-medium text-gray-500 items-center bg-gray-50 self-center shadow-md mt-4 pl-6 py-3 rounded-t-lg">
         <p className="uppercase w-3/12">name</p>
         <p className="uppercase w-3/12">email</p>
