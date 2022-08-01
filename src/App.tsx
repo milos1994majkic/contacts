@@ -14,6 +14,7 @@ function App() {
   const [contacId, setContactId] = useState('')
   const [submitted, setSubmitted] = useState(false)
   const { contacts, reqContacts } = useContacts()
+  const [searchValue, setSearchValue] = useState('')
 
   useEffect(() => {
     reqContacts()
@@ -35,7 +36,7 @@ function App() {
                     submitted={submitted}
                   />
                   <div className="ml-80 px-8 pb-7 w-full">
-                    <SearchBar />
+                    <SearchBar setSearchValue={setSearchValue} />
                     <Outlet />
                   </div>
                 </>
@@ -45,7 +46,13 @@ function App() {
                 path=""
                 element={
                   <ContactsPage
-                    contacts={contacts}
+                    contacts={contacts.filter(
+                      (item) =>
+                        item.firstName.toLowerCase().includes(searchValue.toLowerCase()) ||
+                        item.lastName.toLowerCase().includes(searchValue.toLowerCase()) ||
+                        item.email.toLowerCase().includes(searchValue.toLowerCase()) ||
+                        item.phoneNumber.toLowerCase().includes(searchValue.toLowerCase())
+                    )}
                     setShowPopup={setShowPopup}
                     setPopupTitle={setPopupTitle}
                     setContactId={setContactId}
@@ -58,7 +65,16 @@ function App() {
                 path="favorites"
                 element={
                   <ContactsPage
-                    contacts={contacts.filter((item) => item.favourite)}
+                    contacts={contacts.filter(
+                      (item) =>
+                        item.favourite &&
+                        (item.firstName
+                          .toLowerCase()
+                          .includes(searchValue.toLowerCase().toLowerCase()) ||
+                          item.lastName.toLowerCase().includes(searchValue.toLowerCase()) ||
+                          item.email.toLowerCase().includes(searchValue.toLowerCase()) ||
+                          item.phoneNumber.toLowerCase().includes(searchValue.toLowerCase()))
+                    )}
                     setShowPopup={setShowPopup}
                     setPopupTitle={setPopupTitle}
                     setContactId={setContactId}
