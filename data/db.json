@@ -1,576 +1,603 @@
 {
-  "contacts" : [
-  {
-    "id": "55287262-9568-4ec2-aa9b-be1bfbd856d3",
-    "firstName": "Yesenia",
-    "lastName": "Crane",
-    "profilePhoto": "https://i.pravatar.cc/100?img=1",
-    "email": "yeseniacrane@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "933cc018-bc02-4441-ba66-39166ea43daf",
-      "title" : "work"
-    }
-  },
-  {
-    "id": "cf3b3e98-00c8-4813-8eee-1e98badf30a0",
-    "firstName": "Kristine",
-    "lastName": "Faulkner",
-    "profilePhoto": "https://i.pravatar.cc/100?img=2",
-    "email": "kristinefaulkner@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "933cc018-bc02-4441-ba66-39166ea43daf",
-      "title" : "work"
-    }
-  },
-  {
-    "id": "531d6913-9e91-4128-bf45-6a8eb47be388",
-    "firstName": "Joanna",
-    "lastName": "Chandler",
-    "profilePhoto": "https://i.pravatar.cc/100?img=3",
-    "email": "joannachandler@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "933cc018-bc02-4441-ba66-39166ea43daf",
-      "title" : "work"
-    }
-  },
-  {
-    "id": "a03d8d08-0760-4a1c-b1d4-2cc633881737",
-    "firstName": "Barron",
-    "lastName": "Padilla",
-    "profilePhoto": "https://i.pravatar.cc/100?img=4",
-    "email": "barronpadilla@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "78720db1-a616-4268-8248-41b1c7246a68",
-    "firstName": "Lorene",
-    "lastName": "Tucker",
-    "profilePhoto": "https://i.pravatar.cc/100?img=5",
-    "email": "lorenetucker@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "933cc018-bc02-4441-ba66-39166ea43daf",
-      "title" : "work"
-    }
-  },
-  {
-    "id": "a286383a-454b-4e0d-8fb9-d8ee6ab0630e",
-    "firstName": "Reba",
-    "lastName": "Joseph",
-    "profilePhoto": "https://i.pravatar.cc/100?img=6",
-    "email": "rebajoseph@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "8ac0af72-f733-4c23-88be-f48a3ac7d8af",
-    "firstName": "Heather",
-    "lastName": "Santos",
-    "profilePhoto": "https://i.pravatar.cc/100?img=7",
-    "email": "heathersantos@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "e058a56a-923d-4709-9bbc-13a63a99370a",
-    "firstName": "Clayton",
-    "lastName": "Holloway",
-    "profilePhoto": "https://i.pravatar.cc/100?img=8",
-    "email": "claytonholloway@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "aa9e597b-24ef-4603-8439-f58da952e6a0",
-    "firstName": "Rae",
-    "lastName": "Hinton",
-    "profilePhoto": "https://i.pravatar.cc/100?img=9",
-    "email": "raehinton@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "97d6eea0-0189-4597-8235-7e3b2ba42d07",
-    "firstName": "Vasquez",
-    "lastName": "Meyers",
-    "profilePhoto": "https://i.pravatar.cc/100?img=10",
-    "email": "vasquezmeyers@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "933cc018-bc02-4441-ba66-39166ea43daf",
-      "title" : "work"
-    }
-  },
-  {
-    "id": "c0c10fd3-dd7a-4fd3-85b8-2dcd0951eafb",
-    "firstName": "Lucy",
-    "lastName": "Schmidt",
-    "profilePhoto": "https://i.pravatar.cc/100?img=11",
-    "email": "lucyschmidt@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "25f6f353-5100-40c4-8e47-4e7173f7a697",
-    "firstName": "Suzanne",
-    "lastName": "Patton",
-    "profilePhoto": "https://i.pravatar.cc/100?img=12",
-    "email": "suzannepatton@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "e29806b4-b7a5-4ea3-9768-739f77a6c79c",
-    "firstName": "Luz",
-    "lastName": "Potts",
-    "profilePhoto": "https://i.pravatar.cc/100?img=13",
-    "email": "luzpotts@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "23eb5879-85c2-4be4-a265-efc7f67838da",
-    "firstName": "Corine",
-    "lastName": "Bishop",
-    "profilePhoto": "https://i.pravatar.cc/100?img=14",
-    "email": "corinebishop@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "3bc69bae-356e-44e4-9652-615b39b4a784",
-    "firstName": "Noemi",
-    "lastName": "Howell",
-    "profilePhoto": "https://i.pravatar.cc/100?img=15",
-    "email": "noemihowell@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "58b4effe-58fe-4006-a1fd-0b9c7be243c5",
-    "firstName": "Ashley",
-    "lastName": "Haney",
-    "profilePhoto": "https://i.pravatar.cc/100?img=16",
-    "email": "ashleyhaney@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "e29bcbf4-895c-449f-8b6d-441fa16eda72",
-    "firstName": "Stout",
-    "lastName": "Burnett",
-    "profilePhoto": "https://i.pravatar.cc/100?img=17",
-    "email": "stoutburnett@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "933cc018-bc02-4441-ba66-39166ea43daf",
-      "title" : "work"
-    }
-  },
-  {
-    "id": "e1666303-c195-4f6b-aa87-0c1ceb293974",
-    "firstName": "Neva",
-    "lastName": "Nielsen",
-    "profilePhoto": "https://i.pravatar.cc/100?img=18",
-    "email": "nevanielsen@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "66bb60f9-aaf8-4e89-81ee-1843010d52b7",
-    "firstName": "Young",
-    "lastName": "Winters",
-    "profilePhoto": "https://i.pravatar.cc/100?img=19",
-    "email": "youngwinters@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "4ed3d789-9a1b-43a9-980f-7b271f595f1d",
-    "firstName": "Adeline",
-    "lastName": "Flowers",
-    "profilePhoto": "https://i.pravatar.cc/100?img=20",
-    "email": "adelineflowers@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "4d3477f9-c363-4e2a-b3ed-39c03277023b",
-    "firstName": "Katina",
-    "lastName": "Harper",
-    "profilePhoto": "https://i.pravatar.cc/100?img=21",
-    "email": "katinaharper@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-  "id": "7c020ef8-f7da-41a4-8afa-cc75e9d391df",
-    "firstName": "Eve",
-    "lastName": "Chavez",
-    "profilePhoto": "https://i.pravatar.cc/100?img=22",
-    "email": "evechavez@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "933cc018-bc02-4441-ba66-39166ea43daf",
-      "title" : "work"
-    }
-  },
-  {
-    "id": "fb00e2d0-4d68-46a1-bb59-09053f2d3ffe",
-    "firstName": "Robles",
-    "lastName": "Bryant",
-    "profilePhoto": "https://i.pravatar.cc/100?img=23",
-    "email": "roblesbryant@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "ea32aee0-62b7-4d0d-bbf4-55b2f8884d82",
-    "firstName": "Guzman",
-    "lastName": "Compton",
-    "profilePhoto": "https://i.pravatar.cc/100?img=24",
-    "email": "guzmancompton@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "7e2100a6-54f7-41ec-b296-fdb13dcac7f0",
-    "firstName": "Margo",
-    "lastName": "Camacho",
-    "profilePhoto": "https://i.pravatar.cc/100?img=25",
-    "email": "margocamacho@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "50482f1a-793a-4087-b4be-534b23f161cc",
-    "firstName": "Adriana",
-    "lastName": "Osborn",
-    "profilePhoto": "https://i.pravatar.cc/100?img=26",
-    "email": "adrianaosborn@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "ccb14728-3a80-4ac2-b00e-09321ba3d47d",
-    "firstName": "Gladys",
-    "lastName": "Austin",
-    "profilePhoto": "https://i.pravatar.cc/100?img=27",
-    "email": "gladysaustin@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "9c5542db-be31-4090-9b61-45e8fd11daf7",
-    "firstName": "Teri",
-    "lastName": "Willis",
-    "profilePhoto": "https://i.pravatar.cc/100?img=28",
-    "email": "teriwillis@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "c7d79849-f1f7-47dc-881b-b81a62024cf3",
-    "firstName": "Gloria",
-    "lastName": "Aguilar",
-    "profilePhoto": "https://i.pravatar.cc/100?img=29",
-    "email": "gloriaaguilar@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
-    }
-  },
-  {
-    "id": "e1ef63f8-503a-4915-afae-c666db0010fc",
-    "firstName": "Karen",
-    "lastName": "Rodriquez",
-    "profilePhoto": "https://i.pravatar.cc/100?img=30",
-    "email": "karenrodriquez@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
-    }
-  },
-  {
-    "id": "cfb35616-519a-40b4-9641-30406fa41af7",
-    "firstName": "Villarreal",
-    "lastName": "Sweeney",
-    "profilePhoto": "https://i.pravatar.cc/100?img=31",
-    "email": "villarrealsweeney@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
-    }
-  },
-  {
-    "id": "d67ae00b-81d6-432d-8629-d87a3cccdf6e",
-    "firstName": "Nunez",
-    "lastName": "Greer",
-    "profilePhoto": "https://i.pravatar.cc/100?img=32",
-    "email": "nunezgreer@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
-    }
-  },
-  {
-    "id": "a6456c9d-8fd3-45c1-81b0-558f0604a368",
-    "firstName": "Pamela",
-    "lastName": "Gardner",
-    "profilePhoto": "https://i.pravatar.cc/100?img=33",
-    "email": "pamelagardner@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
-    }
-  },
-  {
-    "id": "09a54ed8-5c2e-4b88-8a98-d1d839834463",
-    "firstName": "Luella",
-    "lastName": "Ochoa",
-    "profilePhoto": "https://i.pravatar.cc/100?img=34",
-    "email": "luellaochoa@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
-    }
-  },
-  {
-    "id": "5fa5fb08-72cf-4e48-b294-2b812ef06f9b",
-    "firstName": "Blankenship",
-    "lastName": "Alvarez",
-    "profilePhoto": "https://i.pravatar.cc/100?img=35",
-    "email": "blankenshipalvarez@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
-    }
-  },
-  {
-    "id": "3f8eeb09-789f-4898-ab94-e7dc7df79a2c",
-    "firstName": "Opal",
-    "lastName": "Chapman",
-    "profilePhoto": "https://i.pravatar.cc/100?img=36",
-    "email": "opalchapman@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
-    }
-  },
-  {
-    "id": "74a2d120-5546-4ab3-969b-d6895513967a",
-    "firstName": "Huffman",
-    "lastName": "Robertson",
-    "profilePhoto": "https://i.pravatar.cc/100?img=37",
-    "email": "huffmanrobertson@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
-    }
-  },
-  {
-    "id": "7ad51002-81c5-436e-bf06-885e9bc960b6",
-    "firstName": "Barlow",
-    "lastName": "Lambert",
-    "profilePhoto": "https://i.pravatar.cc/100?img=38",
-    "email": "barlowlambert@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
-    }
-  },
-  {
-    "id": "452a135d-025a-482f-8871-c399b443f8b0",
-    "firstName": "Cantrell",
-    "lastName": "Anthony",
-    "profilePhoto": "https://i.pravatar.cc/100?img=39",
-    "email": "cantrellanthony@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
-    }
-  },
-  {
-    "id": "d3805623-db5d-4a57-ac02-73433ea9e9a9",
-    "firstName": "Liliana",
-    "lastName": "Cooper",
-    "profilePhoto": "https://i.pravatar.cc/100?img=40",
-    "email": "lilianacooper@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
-    }
-  },
-  {
-    "id": "43938fab-b21c-43e9-b404-4046d48c34c2",
-    "firstName": "Leslie",
-    "lastName": "Franklin",
-    "profilePhoto": "https://i.pravatar.cc/100?img=41",
-    "email": "lesliefranklin@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
-    }
-  },
-  {
-    "id": "53192be5-a2c4-43b6-a207-f38bc6fcfaf4",
-    "firstName": "Battle",
-    "lastName": "Watson",
-    "profilePhoto": "https://i.pravatar.cc/100?img=42",
-    "email": "battlewatson@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": false,
-    "label": {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
-    }
-  },
-  {
-    "id": "bd169dfd-061f-4402-a411-7b60558b8d6a",
-    "firstName": "Lucas",
-    "lastName": "Boyd",
-    "profilePhoto": "https://i.pravatar.cc/100?img=43",
-    "email": "lucasboyd@zaggles.com",
-    "phoneNumber" : "+381 60 - 123 4567",
-    "favourite": true,
-    "label": {
-      "id" : "933cc018-bc02-4441-ba66-39166ea43daf",
-      "title" : "work"
-    }
-  }],
-  "labels" : [
+  "contacts": [
     {
-      "id" : "933cc018-bc02-4441-ba66-39166ea43daf",
-      "title" : "work"
+      "id": "55287262-9568-4ec2-aa9b-be1bfbd856d3",
+      "firstName": "Yesenia",
+      "lastName": "Crane",
+      "profilePhoto": "https://i.pravatar.cc/100?img=1",
+      "email": "yeseniacrane@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "933cc018-bc02-4441-ba66-39166ea43daf",
+        "title": "work"
+      }
     },
     {
-      "id" : "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-      "title" : "family"
+      "id": "cf3b3e98-00c8-4813-8eee-1e98badf30a0",
+      "firstName": "Kristine",
+      "lastName": "Faulkner",
+      "profilePhoto": "https://i.pravatar.cc/100?img=2",
+      "email": "kristinefaulkner@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "933cc018-bc02-4441-ba66-39166ea43daf",
+        "title": "work"
+      }
     },
     {
-      "id" : "70adda3d-d974-4ac4-9382-7dd64754823e",
-      "title" : "friends"
+      "id": "531d6913-9e91-4128-bf45-6a8eb47be388",
+      "firstName": "Joanna",
+      "lastName": "Chandler",
+      "profilePhoto": "https://i.pravatar.cc/100?img=3",
+      "email": "joannachandler@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "933cc018-bc02-4441-ba66-39166ea43daf",
+        "title": "work"
+      }
+    },
+    {
+      "id": "a03d8d08-0760-4a1c-b1d4-2cc633881737",
+      "firstName": "Barron",
+      "lastName": "Padilla",
+      "profilePhoto": "https://i.pravatar.cc/100?img=4",
+      "email": "barronpadilla@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "78720db1-a616-4268-8248-41b1c7246a68",
+      "firstName": "Lorene",
+      "lastName": "Tucker",
+      "profilePhoto": "https://i.pravatar.cc/100?img=5",
+      "email": "lorenetucker@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "933cc018-bc02-4441-ba66-39166ea43daf",
+        "title": "work"
+      }
+    },
+    {
+      "id": "a286383a-454b-4e0d-8fb9-d8ee6ab0630e",
+      "firstName": "Reba",
+      "lastName": "Joseph",
+      "profilePhoto": "https://i.pravatar.cc/100?img=6",
+      "email": "rebajoseph@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "8ac0af72-f733-4c23-88be-f48a3ac7d8af",
+      "firstName": "Heather",
+      "lastName": "Santos",
+      "profilePhoto": "https://i.pravatar.cc/100?img=7",
+      "email": "heathersantos@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "e058a56a-923d-4709-9bbc-13a63a99370a",
+      "firstName": "Clayton",
+      "lastName": "Holloway",
+      "profilePhoto": "https://i.pravatar.cc/100?img=8",
+      "email": "claytonholloway@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "aa9e597b-24ef-4603-8439-f58da952e6a0",
+      "firstName": "Rae",
+      "lastName": "Hinton",
+      "profilePhoto": "https://i.pravatar.cc/100?img=9",
+      "email": "raehinton@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "97d6eea0-0189-4597-8235-7e3b2ba42d07",
+      "firstName": "Vasquez",
+      "lastName": "Meyers",
+      "profilePhoto": "https://i.pravatar.cc/100?img=10",
+      "email": "vasquezmeyers@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "933cc018-bc02-4441-ba66-39166ea43daf",
+        "title": "work"
+      }
+    },
+    {
+      "id": "c0c10fd3-dd7a-4fd3-85b8-2dcd0951eafb",
+      "firstName": "Lucy",
+      "lastName": "Schmidt",
+      "profilePhoto": "https://i.pravatar.cc/100?img=11",
+      "email": "lucyschmidt@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "25f6f353-5100-40c4-8e47-4e7173f7a697",
+      "firstName": "Suzanne",
+      "lastName": "Patton",
+      "profilePhoto": "https://i.pravatar.cc/100?img=12",
+      "email": "suzannepatton@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "e29806b4-b7a5-4ea3-9768-739f77a6c79c",
+      "firstName": "Luz",
+      "lastName": "Potts",
+      "profilePhoto": "https://i.pravatar.cc/100?img=13",
+      "email": "luzpotts@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "23eb5879-85c2-4be4-a265-efc7f67838da",
+      "firstName": "Corine",
+      "lastName": "Bishop",
+      "profilePhoto": "https://i.pravatar.cc/100?img=14",
+      "email": "corinebishop@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "3bc69bae-356e-44e4-9652-615b39b4a784",
+      "firstName": "Noemi",
+      "lastName": "Howell",
+      "profilePhoto": "https://i.pravatar.cc/100?img=15",
+      "email": "noemihowell@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "58b4effe-58fe-4006-a1fd-0b9c7be243c5",
+      "firstName": "Ashley",
+      "lastName": "Haney",
+      "profilePhoto": "https://i.pravatar.cc/100?img=16",
+      "email": "ashleyhaney@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "e29bcbf4-895c-449f-8b6d-441fa16eda72",
+      "firstName": "Stout",
+      "lastName": "Burnett",
+      "profilePhoto": "https://i.pravatar.cc/100?img=17",
+      "email": "stoutburnett@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "933cc018-bc02-4441-ba66-39166ea43daf",
+        "title": "work"
+      }
+    },
+    {
+      "id": "e1666303-c195-4f6b-aa87-0c1ceb293974",
+      "firstName": "Neva",
+      "lastName": "Nielsen",
+      "profilePhoto": "https://i.pravatar.cc/100?img=18",
+      "email": "nevanielsen@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "66bb60f9-aaf8-4e89-81ee-1843010d52b7",
+      "firstName": "Young",
+      "lastName": "Winters",
+      "profilePhoto": "https://i.pravatar.cc/100?img=19",
+      "email": "youngwinters@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "4ed3d789-9a1b-43a9-980f-7b271f595f1d",
+      "firstName": "Adeline",
+      "lastName": "Flowers",
+      "profilePhoto": "https://i.pravatar.cc/100?img=20",
+      "email": "adelineflowers@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "4d3477f9-c363-4e2a-b3ed-39c03277023b",
+      "firstName": "Katina",
+      "lastName": "Harper",
+      "profilePhoto": "https://i.pravatar.cc/100?img=21",
+      "email": "katinaharper@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "7c020ef8-f7da-41a4-8afa-cc75e9d391df",
+      "firstName": "Eve",
+      "lastName": "Chavez",
+      "profilePhoto": "https://i.pravatar.cc/100?img=22",
+      "email": "evechavez@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "933cc018-bc02-4441-ba66-39166ea43daf",
+        "title": "work"
+      }
+    },
+    {
+      "id": "fb00e2d0-4d68-46a1-bb59-09053f2d3ffe",
+      "firstName": "Robles",
+      "lastName": "Bryant",
+      "profilePhoto": "https://i.pravatar.cc/100?img=23",
+      "email": "roblesbryant@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "ea32aee0-62b7-4d0d-bbf4-55b2f8884d82",
+      "firstName": "Guzman",
+      "lastName": "Compton",
+      "profilePhoto": "https://i.pravatar.cc/100?img=24",
+      "email": "guzmancompton@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "7e2100a6-54f7-41ec-b296-fdb13dcac7f0",
+      "firstName": "Margo",
+      "lastName": "Camacho",
+      "profilePhoto": "https://i.pravatar.cc/100?img=25",
+      "email": "margocamacho@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "50482f1a-793a-4087-b4be-534b23f161cc",
+      "firstName": "Adriana",
+      "lastName": "Osborn",
+      "profilePhoto": "https://i.pravatar.cc/100?img=26",
+      "email": "adrianaosborn@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "ccb14728-3a80-4ac2-b00e-09321ba3d47d",
+      "firstName": "Gladys",
+      "lastName": "Austin",
+      "profilePhoto": "https://i.pravatar.cc/100?img=27",
+      "email": "gladysaustin@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "9c5542db-be31-4090-9b61-45e8fd11daf7",
+      "firstName": "Teri",
+      "lastName": "Willis",
+      "profilePhoto": "https://i.pravatar.cc/100?img=28",
+      "email": "teriwillis@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "c7d79849-f1f7-47dc-881b-b81a62024cf3",
+      "firstName": "Gloria",
+      "lastName": "Aguilar",
+      "profilePhoto": "https://i.pravatar.cc/100?img=29",
+      "email": "gloriaaguilar@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+        "title": "friends"
+      }
+    },
+    {
+      "id": "e1ef63f8-503a-4915-afae-c666db0010fc",
+      "firstName": "Karen",
+      "lastName": "Rodriquez",
+      "profilePhoto": "https://i.pravatar.cc/100?img=30",
+      "email": "karenrodriquez@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+        "title": "friends"
+      }
+    },
+    {
+      "id": "cfb35616-519a-40b4-9641-30406fa41af7",
+      "firstName": "Villarreal",
+      "lastName": "Sweeney",
+      "profilePhoto": "https://i.pravatar.cc/100?img=31",
+      "email": "villarrealsweeney@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+        "title": "friends"
+      }
+    },
+    {
+      "id": "d67ae00b-81d6-432d-8629-d87a3cccdf6e",
+      "firstName": "Nunez",
+      "lastName": "Greer",
+      "profilePhoto": "https://i.pravatar.cc/100?img=32",
+      "email": "nunezgreer@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+        "title": "friends"
+      }
+    },
+    {
+      "id": "a6456c9d-8fd3-45c1-81b0-558f0604a368",
+      "firstName": "Pamela",
+      "lastName": "Gardner",
+      "profilePhoto": "https://i.pravatar.cc/100?img=33",
+      "email": "pamelagardner@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+        "title": "friends"
+      }
+    },
+    {
+      "id": "09a54ed8-5c2e-4b88-8a98-d1d839834463",
+      "firstName": "Luella",
+      "lastName": "Ochoa",
+      "profilePhoto": "https://i.pravatar.cc/100?img=34",
+      "email": "luellaochoa@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+        "title": "friends"
+      }
+    },
+    {
+      "id": "5fa5fb08-72cf-4e48-b294-2b812ef06f9b",
+      "firstName": "Blankenship",
+      "lastName": "Alvarez",
+      "profilePhoto": "https://i.pravatar.cc/100?img=35",
+      "email": "blankenshipalvarez@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+        "title": "friends"
+      }
+    },
+    {
+      "id": "3f8eeb09-789f-4898-ab94-e7dc7df79a2c",
+      "firstName": "Opal",
+      "lastName": "Chapman",
+      "profilePhoto": "https://i.pravatar.cc/100?img=36",
+      "email": "opalchapman@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+        "title": "friends"
+      }
+    },
+    {
+      "id": "74a2d120-5546-4ab3-969b-d6895513967a",
+      "firstName": "Huffman",
+      "lastName": "Robertson",
+      "profilePhoto": "https://i.pravatar.cc/100?img=37",
+      "email": "huffmanrobertson@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+        "title": "friends"
+      }
+    },
+    {
+      "id": "7ad51002-81c5-436e-bf06-885e9bc960b6",
+      "firstName": "Barlow",
+      "lastName": "Lambert",
+      "profilePhoto": "https://i.pravatar.cc/100?img=38",
+      "email": "barlowlambert@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+        "title": "friends"
+      }
+    },
+    {
+      "id": "452a135d-025a-482f-8871-c399b443f8b0",
+      "firstName": "Cantrell",
+      "lastName": "Anthony",
+      "profilePhoto": "https://i.pravatar.cc/100?img=39",
+      "email": "cantrellanthony@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+        "title": "friends"
+      }
+    },
+    {
+      "id": "d3805623-db5d-4a57-ac02-73433ea9e9a9",
+      "firstName": "Liliana",
+      "lastName": "Cooper",
+      "profilePhoto": "https://i.pravatar.cc/100?img=40",
+      "email": "lilianacooper@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+        "title": "friends"
+      }
+    },
+    {
+      "id": "43938fab-b21c-43e9-b404-4046d48c34c2",
+      "firstName": "Leslie",
+      "lastName": "Franklin",
+      "profilePhoto": "https://i.pravatar.cc/100?img=41",
+      "email": "lesliefranklin@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+        "title": "friends"
+      }
+    },
+    {
+      "id": "53192be5-a2c4-43b6-a207-f38bc6fcfaf4",
+      "firstName": "Battle",
+      "lastName": "Watson",
+      "profilePhoto": "https://i.pravatar.cc/100?img=42",
+      "email": "battlewatson@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+        "title": "family"
+      }
+    },
+    {
+      "id": "bd169dfd-061f-4402-a411-7b60558b8d6a",
+      "firstName": "Lucas",
+      "lastName": "Boyd",
+      "profilePhoto": "https://i.pravatar.cc/100?img=43",
+      "email": "lucasboyd@zaggles.com",
+      "phoneNumber": "+381 60 - 123 4567",
+      "favourite": true,
+      "label": {
+        "id": "933cc018-bc02-4441-ba66-39166ea43daf",
+        "title": "work"
+      }
+    },
+    {
+      "id": "88fd1c50-003a-4afc-9aab-5c1979bab1b2",
+      "firstName": "Milos",
+      "lastName": "Majkic",
+      "profilePhoto": "https://i.pravatar.cc/100",
+      "email": "milos1994majkic@gmail.com",
+      "phoneNumber": "+381 64 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "",
+        "title": ""
+      }
+    },
+    {
+      "id": "b5e3f552-de8a-455f-8785-ba3ebcb7eec9",
+      "firstName": "Dejan",
+      "lastName": "Pataki",
+      "profilePhoto": "https://i.pravatar.cc/100",
+      "email": "dejan.pataki@retrodigitalagency.com",
+      "phoneNumber": "+381 64 123 4567",
+      "favourite": false,
+      "label": {
+        "id": "",
+        "title": ""
+      }
+    }
+  ],
+  "labels": [
+    {
+      "id": "933cc018-bc02-4441-ba66-39166ea43daf",
+      "title": "work"
+    },
+    {
+      "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
+      "title": "family"
+    },
+    {
+      "id": "70adda3d-d974-4ac4-9382-7dd64754823e",
+      "title": "friends"
     }
   ]
 }

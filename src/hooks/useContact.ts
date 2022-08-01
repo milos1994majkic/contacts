@@ -10,3 +10,16 @@ export const useContacts = () => {
   }
   return { contacts, reqContacts }
 }
+
+export const useLabels = () => {
+  const [labels, setLabels] = useState<ContactInterface[]>([])
+  const reqLabels = async () => {
+    const getLabels = await axios.get(process.env.REACT_APP_API_URL + '/labels')
+    setLabels(getLabels.data)
+  }
+  return { labels, reqLabels }
+}
+
+export const saveContact = async (data: ContactInterface) => {
+  await axios.post(process.env.REACT_APP_API_URL + '/contacts', data)
+}
