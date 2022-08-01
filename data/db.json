@@ -1,19 +1,6 @@
 {
   "contacts": [
     {
-      "id": "58b4effe-58fe-4006-a1fd-0b9c7be243c5",
-      "firstName": "Ashley",
-      "lastName": "Haney",
-      "profilePhoto": "https://i.pravatar.cc/100?img=16",
-      "email": "ashleyhaney@zaggles.com",
-      "phoneNumber": "+381 60 - 123 4567",
-      "favourite": false,
-      "label": {
-        "id": "5251ccd4-ba52-4a3a-9d99-fdc83b451dba",
-        "title": "family"
-      }
-    },
-    {
       "id": "e29bcbf4-895c-449f-8b6d-441fa16eda72",
       "firstName": "Stout",
       "lastName": "Burnett",
@@ -358,7 +345,7 @@
       "profilePhoto": "https://i.pravatar.cc/100",
       "email": "mickey.rourke@gmail.com",
       "phoneNumber": "+ 381 64 123 4567",
-      "favourite": false,
+      "favourite": true,
       "label": {
         "id": "",
         "title": ""

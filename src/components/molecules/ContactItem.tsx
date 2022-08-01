@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+import { makeFavourite } from '../../services/contact.api'
 import PencilIcon from '../icons/PencilIcon'
 import StarIcon from '../icons/StarIcon'
 import StarSolidIcon from '../icons/StarSolidIcon'
@@ -14,6 +16,7 @@ interface Props {
   setShowPopup: Function
   setPopupTitle: Function
   setContactId: Function
+  setSubmitted: Function
 }
 
 export default function ContactItem({
@@ -27,6 +30,7 @@ export default function ContactItem({
   setShowPopup,
   setPopupTitle,
   setContactId,
+  setSubmitted,
 }: Props) {
   return (
     <div className="flex flex-row justify-between border pl-6 py-3 pr-7 items-center">
@@ -41,7 +45,14 @@ export default function ContactItem({
       <p className="text-gray-500 w-3/12">{email}</p>
       <p className="text-gray-500 w-3/12">{phoneNumber}</p>
       <div className="flex flex-row text-gray-500">
-        {favourite ? <StarSolidIcon /> : <StarIcon />}
+        <span
+          onClick={() => {
+            makeFavourite(id, !favourite)
+            setSubmitted(true)
+          }}
+        >
+          {favourite ? <StarSolidIcon /> : <StarIcon />}
+        </span>
         <span
           className="mx-4"
           onClick={() => {
@@ -52,7 +63,9 @@ export default function ContactItem({
         >
           <TrashIcon />
         </span>
-        <PencilIcon />
+        <Link to="edit">
+          <PencilIcon />
+        </Link>
       </div>
     </div>
   )

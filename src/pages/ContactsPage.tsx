@@ -7,6 +7,7 @@ interface Props {
   setShowPopup: Function
   setPopupTitle: Function
   setContactId: Function
+  setSubmitted: Function
 }
 
 export default function ContactsPage({
@@ -14,6 +15,7 @@ export default function ContactsPage({
   setShowPopup,
   setPopupTitle,
   setContactId,
+  setSubmitted,
 }: Props) {
   return (
     <div className="flex flex-col w-full">
@@ -37,6 +39,7 @@ export default function ContactsPage({
           setShowPopup={setShowPopup}
           setPopupTitle={setPopupTitle}
           setContactId={setContactId}
+          setSubmitted={setSubmitted}
         />
       ))}
     </div>
