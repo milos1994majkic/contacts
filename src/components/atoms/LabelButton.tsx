@@ -23,7 +23,8 @@ export default function LabelButton() {
       </button>
       <div
         id="dropdown"
-        className="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+        className="absolute z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+        style={{ transform: 'translateY(92px)', right: '770px' }}
       >
         <ul
           className="py-1 text-sm text-gray-700 dark:text-gray-200"

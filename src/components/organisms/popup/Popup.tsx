@@ -1,12 +1,23 @@
+import { deleteContact } from '../../../services/contact.api'
 import DeleteIcon from '../../icons/DeleteIcon'
 
 interface Props {
   showPopup: boolean
   setShowPopup: Function
   popupTitle: string
+  contactId: string
+  setContactId: Function
+  setSubmitted: Function
 }
 
-export default function Popup({ showPopup, setShowPopup, popupTitle }: Props) {
+export default function Popup({
+  showPopup,
+  setShowPopup,
+  popupTitle,
+  contactId,
+  setContactId,
+  setSubmitted,
+}: Props) {
   const createLabel = 'Create label'
 
   return showPopup ? (
@@ -64,7 +75,13 @@ export default function Popup({ showPopup, setShowPopup, popupTitle }: Props) {
                     : 'border-red-600 bg-red-600 hover:bg-red-800'
                 }  text-white active:bg-emerald-600 text-sm ml-3 px-6 py-2 rounded-md shadow outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150`}
                 type="button"
-                onClick={() => setShowPopup(false)}
+                onClick={() => {
+                  console.log(contactId)
+                  setShowPopup(false)
+                  deleteContact(contactId)
+                  setContactId('')
+                  setSubmitted(true)
+                }}
               >
                 {popupTitle === createLabel ? 'Save' : 'Delete'}
               </button>

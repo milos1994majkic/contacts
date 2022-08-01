@@ -19,7 +19,3 @@ export const useLabels = () => {
   }
   return { labels, reqLabels }
 }
-
-export const saveContact = async (data: ContactInterface) => {
-  await axios.post(process.env.REACT_APP_API_URL + '/contacts', data)
-}

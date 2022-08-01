@@ -5,13 +5,14 @@ import SimpleButton from '../../atoms/SimpleButton'
 import CreateUserDefaultIcon from '../../icons/CreateUserDefaultIcon'
 import { v4 as uuidv4 } from 'uuid'
 import { Link } from 'react-router-dom'
-import { saveContact } from '../../../hooks/useContact'
+import { saveContact } from '../../../services/contact.api'
 
 interface Props {
   buttonTitle: string
+  setSubmitted: Function
 }
 
-export default function ContactForm({ buttonTitle }: Props) {
+export default function ContactForm({ buttonTitle, setSubmitted }: Props) {
   const userObject = {
     id: '',
     firstName: '',
@@ -96,6 +97,7 @@ export default function ContactForm({ buttonTitle }: Props) {
         <Link to="/">
           <span
             onClick={() => {
+              setSubmitted(true)
               createContact()
             }}
           >

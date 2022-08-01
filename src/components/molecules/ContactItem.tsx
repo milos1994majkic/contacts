@@ -4,21 +4,29 @@ import StarSolidIcon from '../icons/StarSolidIcon'
 import TrashIcon from '../icons/TrashIcon'
 
 interface Props {
+  id: string
   profilePhoto: string
   firstName: string
   lastName: string
   email: string
   phoneNumber: string
   favourite: boolean
+  setShowPopup: Function
+  setPopupTitle: Function
+  setContactId: Function
 }
 
 export default function ContactItem({
+  id,
   profilePhoto,
   firstName,
   lastName,
   email,
   phoneNumber,
   favourite,
+  setShowPopup,
+  setPopupTitle,
+  setContactId,
 }: Props) {
   return (
     <div className="flex flex-row justify-between border pl-6 py-3 pr-7 items-center">
@@ -34,7 +42,14 @@ export default function ContactItem({
       <p className="text-gray-500 w-3/12">{phoneNumber}</p>
       <div className="flex flex-row text-gray-500">
         {favourite ? <StarSolidIcon /> : <StarIcon />}
-        <span className="mx-4">
+        <span
+          className="mx-4"
+          onClick={() => {
+            setShowPopup(true)
+            setPopupTitle('')
+            setContactId(id)
+          }}
+        >
           <TrashIcon />
         </span>
         <PencilIcon />
