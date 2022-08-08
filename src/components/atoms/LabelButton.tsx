@@ -6,7 +6,6 @@ import ChevronDownIcon from '../icons/ChevronDownIcon'
 export default function LabelButton() {
   const { labels, reqLabels } = useLabels()
   const [clicked, setClicked] = useState(false)
-  const [labelId, setLabelId] = useState('')
 
   useEffect(() => {
     reqLabels()
@@ -38,12 +37,7 @@ export default function LabelButton() {
         >
           {labels.map((item, index) => {
             return (
-              <li
-                key={index}
-                onClick={() => {
-                  setLabelId(item.id)
-                }}
-              >
+              <li key={index}>
                 <p className="flex flex-row block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white capitalize items-center">
                   <p className="pr-3">
                     <CheckIcon />
